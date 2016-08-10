@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the Blanks</h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="person">A name</label>
+              <input id="person" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="pet">Name of your pet</label>
+              <input id="pet" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="food">Your fave food</label>
+              <input id="food" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="verb">A verb</label>
+              <input id="verb" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="place">A place</label>
+              <input id="place" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">Show me the story!</button>
+          </form>
+        </div>
+
+        <div id="story">
+          <h1>Your awesome story:</h1>
+          <p><span class="person"></span>Here are words<span class="pet"></span> Here are words<span class="food"></span>Here are words<span class="verb"></span>Here are words <span class="place"></span>Here are words
+          </p>
+        </div>
+    </div>
+  </body>
+</html>
